@@ -222,6 +222,12 @@
 	"lines": ["There are no panel logs for today. This error may not be related directly to the panel. If you want to check earlier logs, go into the `/var/pterodactyl/storage/logs` directory"]
 },
 {
+	"keys": ["ERR AUTH <password> called without any password"],
+	"lines": [	"You have entered `REDIS` password, when it wasn't needed.",
+			  	"The script hasn't finished the installation, so you are going to need to start over from a frsh install."		
+			]
+},
+{
 	"keys": ["address already in use 0.0.0.0:2022"],
 	"lines": ["Port 2022, the port for the SFTP server, is in use. If you installed the standalone SFTP server, make sure you added `\"enabled\": false,` to your `core.json`, under the section `\"sftp\"`."]
 },
